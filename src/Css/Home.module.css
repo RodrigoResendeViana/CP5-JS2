@@ -1,0 +1,45 @@
+
+.slideshow-container{
+    display: flex;
+    margin: 10px;
+}
+
+img{
+    display: flex;
+    object-fit: cover;
+    width: 80%;
+    height: 450px;
+    text-align: center;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+h1{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+h2, p{
+    color: red;
+    margin: 0 auto;
+}
+
+div{
+    margin: 10px;
+}
+
+.cards{
+    display: flex; /* Exibir os cartões em linha */
+    justify-content: space-between; /* Distribuir espaço entre os cartões */
+}
+.card {
+    width: 33%; /* Define a largura do cartão */
+    border: 1px solid; /* Adiciona uma borda fina ao redor do cartão */
+    margin: 10px; /* Define a margem externa para separar os cartões */
+    text-align: center; /* Centraliza o conteúdo dentro do cartão */
+    margin-top: 30px;
+}
+
+
+
