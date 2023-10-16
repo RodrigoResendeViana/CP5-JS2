@@ -1,15 +1,11 @@
 import {} from 'react'
-import styles from '../Css/Error.module.css'
 
-function Error(){
 
-    return(
-        <>
-        <section className={styles.Error}>
-            errado
-        </section>
-        </>
-    )
+function Error (){
+  return(
+    <section >
+    <h1>404-Página não encontrada.</h1>
+    </section>
+  )
 }
-
 export default Error
